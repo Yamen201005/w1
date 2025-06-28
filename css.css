@@ -5,7 +5,7 @@ image{
     border-style: inset ; border-color: red;
 }
 h1{
-    color: red;
+    color: black;
 }
 p{
     color: royalblue;
@@ -15,5 +15,14 @@ body{
 
 }
 h3{
-    color: gold;
+    color:black;
+}
+img{
+    border-style: solid;
+    border-color: black;
+
+    margin-bottom: 100px;
+}
+.style-img{
+    margin-left: 450px; ;
 }
