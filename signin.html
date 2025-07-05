@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <ul>
+            <li><a href="CAMP.html"> home </a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#"> contact us </a></li>
+        <li><a href="search.html">search</a></li>
+        <li><a href="sign in.html">sign in</a></li>
+        </ul>
+        <title>sign in</title>
+        <h1>sign in here</h1>
+        
+        <style>
+            body{
+    background-color:burlywood;
+
+
+}
+button{
+    color:gray
+}
+        </style>
+    </head>
+    <body>
+        <main>
+             <form>
+            <labelfor="email">email</label>
+            <input name="email">
+            <label for="password">password</label>
+            <input name="password">
+            <label for="firstname">firstname</label>
+            <input name="firstname">
+            <label for="lastname">lastname</label>
+            <input name="lastname">
+            <label for="age">age</label>
+            <input name="age">
+            <label for="lenght">lenght</label>
+            <input name="lenght">
+             <label for="wight">wight</label>
+            <input name="wight">
+             
+        </form>
+        </main>
+    <button name="button" onclick="hfunction()"> sign in</button>
+            <p id="text"></p>
+           
+    </body>
+    <script>
+    function hfunction() {
+      var textvar = document.getElementById('text');
+        textvar.innerHTML = "botton clicked , helllllllllllllllo"; 
+    }
+    </script>
+</html>
