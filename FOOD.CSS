@@ -37,3 +37,12 @@ td{
 h1{
     text-align: left;
 }
+button{
+    background-color:black;
+    transition: BACKGROUND-COLOR 0.3s;/* Smooth transition */
+    color:gold
+
+}
+button:active{
+    background-color:gold;
+}
