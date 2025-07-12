@@ -1,0 +1,33 @@
+.flex-countainer{
+    display: none;
+}
+.flex-countainer > div {
+    background-color:aliceblue;
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 200px;
+    
+}
+.div1,.div2,.div3{
+    border-style:inset;
+    border-color: blue;
+}
+button{
+    background-color: blue;
+    color: white ;
+    
+}
+h1{
+    font-size:300%;;
+}
+.p1{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p3{
+    display: none;
+}
+
